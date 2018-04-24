@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+   
   get 'project/index'
 
   get 'home/index'
@@ -23,5 +24,5 @@ end
 	end
 		end
 
-
+  
 end

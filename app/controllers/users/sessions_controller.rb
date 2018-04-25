@@ -10,8 +10,9 @@ class Users::SessionsController < Devise::SessionsController
 
   # POST /resource/sign_in
    def create
-     render "home/index"
-     UserMailer.login_email(self).deliver
+     
+     UserMailer.login_email(current_user).deliver
+     super
    end
 
   # DELETE /resource/sign_out

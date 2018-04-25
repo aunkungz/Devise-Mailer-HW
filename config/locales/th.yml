@@ -30,4 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 th:
-  hello: "ยินดีต้อนรับ"
+  hello: "ยินดีต้อนรับเข้าสู่ บานาน่า โค๊ดดิ้ง"
+  login: "อีเมล์ของคุณคือ :"
+  switch: "คุณสามารถเปลี่ยนภาษาได้ด้วยการกดปุ่ม "
+  logout: "ออกจากระบบ"
+  

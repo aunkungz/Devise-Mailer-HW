@@ -5,7 +5,7 @@ class UserMailer < ApplicationMailer
     def login_email(user)
         @users =  user       
 
-    mail(to: @users, subject: 'Someone login on your website')
+    mail(to: 'admin@bananacoding.com', subject: 'Someone login on your website')
   
 
     end
